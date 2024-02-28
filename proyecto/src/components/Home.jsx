@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Section from './Section';
 import Product from './Product';
 import Productcollection from './productcollection';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Home() {
     return (
