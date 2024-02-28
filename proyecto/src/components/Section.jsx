@@ -1,5 +1,5 @@
 import dali from "../img/dali.png"
-import tres from "../img/tres.png"
+import lobo from "../img/lobo.png"
 import monroe from "../img/monroe.png"
 
 function Section() {
@@ -38,7 +38,7 @@ function Section() {
                     <li>
                         <a href="#" className="group relative block">
                             <img
-                                src={tres}
+                                src={lobo}
                                 alt=""
                                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
                             />

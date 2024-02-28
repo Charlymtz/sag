@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Footer from './Footer';
 import Section from './Section';
 import Product from './Product';
+import Productcollection from './productcollection';
 
 function Home() {
     return (
@@ -11,7 +12,9 @@ function Home() {
         <Banner />
         <Section />
         <Product />
+        <Productcollection />
         <Footer />
+
       </div>
     );
 }

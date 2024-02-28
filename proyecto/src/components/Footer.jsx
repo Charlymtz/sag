@@ -1,10 +1,10 @@
-import rana from '../img/rana.png'
+import galeria from '../img/galeria.png'
 function Footer() {
     return(
 <footer className="bg-white lg:grid lg:grid-cols-5 dark:bg-gray-900">
   <div className="relative block h-32 lg:col-span-2 lg:h-full">
     <img
-      src={rana}
+      src={galeria}
       alt=""
       className="absolute inset-0 h-full w-full object-cover"
     />
@@ -134,31 +134,13 @@ function Footer() {
           <ul className="mt-6 space-y-4 text-sm">
             <li>
               <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                1on1 Coaching
+                Buy art
               </a>
             </li>
 
             <li>
               <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                Company Review
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                Accounts Review
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                HR Consulting
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                SEO Optimisation
+                Sell art
               </a>
             </li>
           </ul>
