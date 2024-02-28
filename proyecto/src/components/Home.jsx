@@ -2,6 +2,7 @@ import Header from './header';
 import Banner from './Banner';
 import Footer from './Footer';
 import Section from './Section';
+import Product from './Product';
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
         <Header />
         <Banner />
         <Section />
+        <Product />
         <Footer />
       </div>
     );
