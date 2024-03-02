@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { TbHexagonLetterP } from "react-icons/tb";
 function Header(){
     return(
@@ -12,14 +13,13 @@ function Header(){
 
 
         </a>
-    
         <div className="flex flex-1 items-center justify-end md:justify-between">
           <nav aria-label="Global" className="hidden md:block">
             <ul className="flex items-center gap-6 text-sm">
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="#/"
                 >
                   About
                 </a>
@@ -28,7 +28,7 @@ function Header(){
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="#/"
                 >
                   Careers
                 </a>
@@ -37,7 +37,7 @@ function Header(){
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="#/"
                 >
                   History
                 </a>
@@ -46,7 +46,7 @@ function Header(){
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="#/"
                 >
                   Services
                 </a>
@@ -55,7 +55,7 @@ function Header(){
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="#/"
                 >
                   Projects
                 </a>
@@ -64,26 +64,26 @@ function Header(){
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="#/"
                 >
                   Blog
                 </a>
               </li>
             </ul>
           </nav>
-    
+        
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <a
                 className="block rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700 dark:hover:bg-purple-500"
-                href="#"
+                href="#/"
               >
                 Login
               </a>
     
               <a
                 className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-                href="#"
+                href="#/"
               >
                 Register
               </a>
@@ -104,10 +104,13 @@ function Header(){
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
+            
           </div>
         </div>
       </div>
     </header>
+    
+
     )
 }
 export default Header
