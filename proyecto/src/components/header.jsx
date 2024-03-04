@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { TbHexagonLetterP } from "react-icons/tb";
+import { Link,NavLink } from "react-router-dom"
+
 function Header(){
     return(
       <header className="bg-white dark:bg-gray-900">
@@ -74,18 +74,18 @@ function Header(){
         
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a
-                className="block rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700 dark:hover:bg-purple-500"
-                href="#/"
-              >
-                Login
-              </a>
-    
+            <a
+              className="block rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700 dark:hover:bg-purple-500"
+              href="#/">
+                
+               <NavLink className='nav-link' to='/login'>Login</NavLink>
+            </a>
+
               <a
                 className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
                 href="#/"
               >
-                Register
+                <NavLink className='nav-link' to='/register'>Register</NavLink>
               </a>
             </div>
     
