@@ -9,10 +9,10 @@ function Section() {
                 <header className="text-center">
                 <h2 className="text-xl font-bold text-white sm:text-3xl">The new era of art</h2>
                     <p className="mx-auto mt-4 max-w-md text-gray-500">
-                        " To me, art begets art. Painting feeds the eye just as poetry feeds the ear, which is to say that both feed the soul."
+                    Art cannot be modern. Art is primordially eternal.
                     </p>
                     <p className="mx-auto mt-4 max-w-md text-gray-500">
-                        Susan Vreeland
+                    -Egon Schiele
                     </p>
                 </header>
 
@@ -28,7 +28,7 @@ function Section() {
                             <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                                 <h3 className="text-xl font-medium">Dali</h3>
 
-                                <span className="mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium uppercase tracking-wide text-black">
+                                <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                                     Shop Now
                                 </span>
                             </div>
@@ -46,7 +46,7 @@ function Section() {
                             <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                                 <h3 className="text-xl font-medium">Ancient</h3>
 
-                                <span className="mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium uppercase tracking-wide text-black">
+                                <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                                     Shop Now
                                 </span>
                             </div>
@@ -64,7 +64,7 @@ function Section() {
                             <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                                 <h3 className="text-xl font-medium">Marilyn Monroe Neon Portrait</h3>
 
-                                <span className="mt-1.5 inline-block bg-white px-5 py-3 text-xs font-medium uppercase tracking-wide text-black">
+                                <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                                     Shop Now
                                 </span>
                             </div>
