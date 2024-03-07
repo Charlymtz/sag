@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import energyart from '../img/energyart.png'
 import plastic from '../img/plastic.png'
 import pingu from '../img/pingu.png'
