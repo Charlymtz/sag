@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import Login from './components/login';
 import Register from './components/register';
+import UnsplashImage from '../src/components/UnsplashImage'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path='/#' element={<Home/>}/>
       <Route path='/Login' element={<Login/>}/>
       <Route path='/register' element={<Register/>}/>
+      <Route path='/UnsplashImage' element={<UnsplashImage/>}/>
       
     </Routes>
     </BrowserRouter>
