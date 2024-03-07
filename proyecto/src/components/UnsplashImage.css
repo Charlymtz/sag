@@ -1,8 +1,9 @@
-/* Estilos generales */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
+  background-color: black;
+  color: white; /* Agregamos color de texto blanco para el cuerpo */
 }
 
 .container {
@@ -11,12 +12,10 @@ body {
   text-align: center;
   overflow: hidden;
   margin: auto;
+  background-color: black; /* Aplicamos el fondo negro al contenedor principal */
 }
 
-/* Estilos específicos para la página de UnsplashImage */
 .unsplash-page {
-  background-color: black;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +31,6 @@ body {
 .image-item {
   width: 100%;
   height: 100%;
-  max-width: 100%;
   max-height: 100%;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

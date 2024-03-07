@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink, useLocation } from 'react-router-dom'; // Importa useLocation desde react-router-dom
+import { NavLink, useLocation } from 'react-router-dom';
 import './UnsplashImage.css';
 
 const UnsplashImage = () => {
   const [imageUrls, setImageUrls] = useState([]);
   const [loading, setLoading] = useState(true);
-  const location = useLocation(); // Obtiene la ubicación actual
+  const location = useLocation();
 
   useEffect(() => {
     const accessKey = 'YFy4Xf4pGwe0QXG8fTDWpeQLsZmi6WfnXAkdIka9IJ4';
