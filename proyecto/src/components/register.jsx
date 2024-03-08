@@ -1,3 +1,4 @@
+import { Link,NavLink } from "react-router-dom"
 import smoke from '../img/smoke.png';
 
 function Register() {
@@ -69,7 +70,9 @@ function Register() {
 
       <div className="flex items-center justify-between">
         <p className="text-sm text-white">
-          <a className="underline" href="#/">Sign in</a>
+          <a className="underline" href="#/">
+          <NavLink className='nav-link' to='/Login'>Sign in</NavLink>
+          </a>
         </p>
 
         <button type="submit" className="inline-block rounded-lg bg-purple-800 px-5 py-3 text-sm font-medium text-white">

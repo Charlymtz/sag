@@ -1,3 +1,4 @@
+import { Link,NavLink } from "react-router-dom"
 import monja from '../img/monja.png'
 function Login(){
     return(
@@ -5,7 +6,11 @@ function Login(){
   <section className="relative flex flex-wrap lg:h-screen lg:items-center">
     <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24 bg-lavender-200 from-violet-700 via-fuchsia-700 to-violet-400 text-white">
      <div className="mx-auto max-w-lg text-center">
-      <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+      <a>
+      <NavLink className='nav-link' to='/'>
+      <h1 className="text-2xl font-bold sm:text-3xl">Street Art</h1>
+      </NavLink>
+      </a>
 
       <p className="mt-4 text-white">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla eaque error neque
@@ -81,7 +86,9 @@ function Login(){
       <div className="flex items-center justify-between">
         <p className="text-sm text-white">
           No account?
-          <a className="underline" href="#">Sign up</a>
+          <a className="underline" href="#">
+          <NavLink className='nav-link' to='/Register'>Sign up</NavLink>
+            </a>
         </p>
 
         <button

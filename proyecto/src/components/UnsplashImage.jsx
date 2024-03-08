@@ -32,8 +32,9 @@ const UnsplashImage = () => {
   }, []);
 
   return (
-    <div className={`container ${location.pathname === '/UnsplashImage' ? 'unsplash-page' : ''}`}>
+    <div>
       <h1>Descubre Arte en Todo el Mundo</h1>
+    <div className={`container ${location.pathname === '/UnsplashImage' ? 'unsplash-page' : ''}`}>
       <div className="image-container">
         {loading && <p>Cargando imágenes...</p>}
         {!loading &&
@@ -47,7 +48,8 @@ const UnsplashImage = () => {
             />
           ))}
       </div>
-      <div className="back-to-home">
+    </div>
+    <div className="back-to-home">
         <button>
           <NavLink className='nav-link' to='/'>Regresar a la página principal</NavLink>
         </button>
